@@ -12,6 +12,6 @@ You'll need to replace the following values with your own:
 - **ACCOUNTKEY** with your own Windows Azure storage account key.
 - **YOURTWILIONUMBER** with your own Twilio phone number.
 - **accountSid** with your Twilio account sid.
--- **authToken** with your own Twilio auth token.
+- **authToken** with your own Twilio auth token.
 
 Enjoy!
