@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Twilio.Mvc</name>
+    </assembly>
+    <members>
+        <member name="T:Twilio.Mvc.TwilioRequest">
+            <summary>
+            Base class for mapping incoming request parameters into a strongly typed object
+            </summary>
+        </member>
+        <member name="T:Twilio.Mvc.SmsRequest">
+            <summary>
+            This class can be used as the parameter on your SMS action. Incoming parameters will be bound here.
+            </summary>
+            <remarks>http://www.twilio.com/docs/api/twiml/sms/twilio_request</remarks>
+        </member>
+        <member name="T:Twilio.Mvc.VoiceRequest">
+            <summary>
+            This class can be used as the parameter on your voice action. Incoming parameters will be bound here.
+            </summary>
+            <remarks>http://www.twilio.com/docs/api/twiml/twilio_request</remarks>
+        </member>
+        <member name="T:Twilio.Mvc.StatusCallbackRequest">
+            <summary>
+            This class can be used as the parameter on your StatusCallback action. Incoming parameters will be bound here.
+            </summary>
+            <remarks>http://www.twilio.com/docs/api/twiml/twilio_request</remarks>
+        </member>
+    </members>
+</doc>
